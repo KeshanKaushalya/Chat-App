@@ -59,7 +59,7 @@ const ChatContainer = ({selectedUser, setSelectedUser}) => {
   ) : (
     <div className='flex flex-col items-center justify-center gap-2 text-gray-500 bg-white/10 max-md:hidden'>
       <img src={assets.logo_copy} className='max-w-30' alt="" />
-      <p className='text-lg font-medium text-white'>Don't type. Just Blink.</p>
+      <p className='text-lg font-medium text-white'>Don't type. Just<span className='text-purple-500'> Blink .</span></p>
     </div>
   )
 }
