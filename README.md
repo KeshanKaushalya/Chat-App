@@ -6,7 +6,7 @@
 
 **Don't type. Just Blink.** ✨
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://blink-chat-frontend.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)]([https://blink-chat-frontend.vercel.app](https://blink-chat-phi.vercel.app/))
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/KeshanKaushalya/Blink-Chat_Application)
 
 </div>
