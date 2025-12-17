@@ -46,7 +46,7 @@ const Sidebar = () => {
       <div className='flex flex-col'>
           {filteredUsers.map((user, index)=>(
             <div onClick={()=> {setSelectedUser(user), setUnseenMessages(prev=>({...prev, [user._id]:0}))}} 
-            key={index} className={`relative flex items-center gap-2 p-2 pl-4 rounded cursor-pointer max-sm:text-sm ${selectedUser?._id === user._id && 'bg-white-900 border border-purple-700 rounded-full '}`}>
+            key={index} className={`relative flex items-center gap-2 p-2 pl-4 rounded cursor-pointer max-sm:text-sm ${selectedUser?._id === user._id && 'backdrop-blur-sm ring-2 ring-indigo-500 rounded-full'}`}>
               <img src={user?.profilePic || assets.avatar_icon} alt="" className='w-[35px] aspect-[1/1] rounded-full'/>
               <div className='flex flex-col leading-5'>
                 <p>{user.fullName}</p>
