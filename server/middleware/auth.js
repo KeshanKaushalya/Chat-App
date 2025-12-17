@@ -1,5 +1,5 @@
 import User from "../models/User.js";
-import * as jwt from 'jsonwebtoken';
+import jwt from 'jsonwebtoken';
 
 
 // Middleware to protect routes
