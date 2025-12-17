@@ -68,6 +68,9 @@ export const AuthProvider = ({ children }) => {
                 setAuthUser(data.user);
                 toast.success("Profile updated successfully");
             }
+            else{
+                toast.error(data.message);
+            }
         } catch (error) {
             toast.error(error.message)
         }
@@ -84,7 +87,7 @@ export const AuthProvider = ({ children }) => {
         newSocket.connect();
         setSocket(newSocket);
 
-        newSocket.on("getOnlineUsers", ()=>{
+        newSocket.on("getOnlineUsers", (userIds)=>{
             setOnlineUsers(userIds);
         })
     }
